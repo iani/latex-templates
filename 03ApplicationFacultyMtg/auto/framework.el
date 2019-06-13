@@ -2,9 +2,9 @@
  "framework"
  (lambda ()
    (TeX-add-to-alist 'LaTeX-provided-class-options
-                     '(("article" "a4paper" "11pt")))
+                     '(("article" "a4" "11pt")))
    (TeX-add-to-alist 'LaTeX-provided-package-options
-                     '(("geometry" "left=2cm" "right=2cm" "top=2.5cm" "bottom=2.5cm")))
+                     '(("geometry" "left=2.5cm" "right=2.5cm" "top=2cm" "bottom=3cm")))
    (add-to-list 'LaTeX-verbatim-macros-with-braces-local "path")
    (add-to-list 'LaTeX-verbatim-macros-with-braces-local "url")
    (add-to-list 'LaTeX-verbatim-macros-with-braces-local "nolinkurl")
@@ -18,9 +18,10 @@
     "article"
     "art11"
     "fontspec"
-    "hanging"
     "geometry"
-    "eurosym"
-    "hyperref"))
+    "hyperref"
+    "ulem"
+    "multicol"
+    "graphicx"))
  :latex)
 

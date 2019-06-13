@@ -2,9 +2,9 @@
  "framework"
  (lambda ()
    (TeX-add-to-alist 'LaTeX-provided-class-options
-                     '(("article" "a4" "11pt")))
+                     '(("article" "a4paper" "11pt")))
    (TeX-add-to-alist 'LaTeX-provided-package-options
-                     '(("geometry" "left=2.5cm" "right=2.5cm" "top=2cm" "bottom=3cm")))
+                     '(("geometry" "left=2cm" "right=2cm" "top=2.5cm" "bottom=2.5cm")))
    (TeX-run-style-hooks
     "latex2e"
     "body"
@@ -12,8 +12,9 @@
     "art11"
     "fontspec"
     "geometry"
+    "eurosym"
     "hyperref"
-    "ulem"
-    "lipsum"))
+    "fancyhdr"
+    "lastpage"))
  :latex)
 

@@ -1,5 +1,5 @@
 (TeX-add-style-hook
- "framework"
+ "ELIDEK1903_B2"
  (lambda ()
    (TeX-add-to-alist 'LaTeX-provided-class-options
                      '(("article" "a4paper" "11pt")))
@@ -18,9 +18,10 @@
     "article"
     "art11"
     "fontspec"
-    "hanging"
     "geometry"
     "eurosym"
-    "hyperref"))
+    "hyperref"
+    "fancyhdr"
+    "lastpage"))
  :latex)
 
