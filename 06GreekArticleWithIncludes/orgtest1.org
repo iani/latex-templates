@@ -1,0 +1,28 @@
+#+LATEX_HEADER_PATH: /home/iani/latex-exports/templates/HeaderTest/framework.tex
+* subtree with header - maybe
+  :PROPERTIES:
+  :LATEX_HEADER_PATH: /home/iani/latex-exports/templates/HeaderTest/framework.tex
+  :END:
+
+\maketitle
+** section 1
+
+ after the section no indent????
+
+ This is a test
+*** subsection
+  Ελληνικά
+
+  /asdf/
+** 1st level section
+ /Ελληνικά/ _/Ελληνικά/_ _Ελληνικά_
+
+ Flubdiglinghs _/Flubdiglinghs/_ _Flubdiglinghs_
+
+ hey *hey*!
+
+ _hey_
+
+ /hey again/
+
+

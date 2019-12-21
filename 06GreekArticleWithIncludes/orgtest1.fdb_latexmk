@@ -1,0 +1,10 @@
+# Fdb version 3
+["pdflatex"] 1574582639 "/home/iani/latex-exports/templates/HeaderTest/orgtest1.org" "/home/iani/latex-exports/templates/HeaderTest/orgtest1.pdf" "orgtest1" 1574582639
+  "/home/iani/latex-exports/templates/HeaderTest/orgtest1.aux" 1574582639 8 a94a2480d3289e625eea47cd1b285758 ""
+  "/home/iani/latex-exports/templates/HeaderTest/orgtest1.org" 1574521139 319 54751fd05418fc6eb5ae1084314be255 ""
+  "/usr/share/texmf-dist/web2c/texmf.cnf" 1557554374 33301 a3134070eacafb10b1f371612ce2650d ""
+  "/var/lib/texmf/web2c/xetex/xelatex.fmt" 1567853391 4111447 c0f1ec4786e1d75036583096fb1a8476 ""
+  "orgtest1.org" 1574521139 319 54751fd05418fc6eb5ae1084314be255 ""
+  (generated)
+  "/home/iani/latex-exports/templates/HeaderTest/orgtest1.pdf"
+  "/home/iani/latex-exports/templates/HeaderTest/orgtest1.log"

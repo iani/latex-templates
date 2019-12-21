@@ -6,11 +6,21 @@
 \usepackage{hyperref}
 %This is needed to enable underlined emphasis (e.g. _underlined_)
 \usepackage[normalem]{ulem} 
-\usepackage{lipsum}
+\usepackage{graphicx} % enable pictures
 \sloppy
+\input{./includes/header.tex}
+
 \begin{document}
 
+% \newcommand*{\MyComponents}{./components}%
+
 \input{body.tex}
+\newline
+\begin{center}
+\includegraphics[width=3.5cm]{signature}
+\end{center}
+
+\input{./includes/footer.tex}
 
 \end{document}
 
