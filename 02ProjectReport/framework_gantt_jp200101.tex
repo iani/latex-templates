@@ -2,7 +2,10 @@
 \usepackage{fontspec}
 \usepackage{hanging}
 \setmainfont{Linux Libertine O} % libertine definitely better than Times New Roman
-% \setmainfont{Times New Roman}
+\usepackage{xeCJK}
+% \setCJKmainfont[BoldFont=sazanami-mincho,ItalicFont=sazanami-mincho]{sazanami-mincho}
+\setCJKmainfont[]{Source Han Serif}
+
 \usepackage[left=2cm, right=2cm, top=2.5cm, bottom=2.5cm]{geometry}
 % \usepackage{ulem} %This is needed to enable underlined emphasis
 % (e.g. _underlined_)
@@ -24,6 +27,7 @@
 \usepackage{tikz}
 % \usepackage{gantt}
 \usepackage{pgfgantt}
+\usepackage{lscape}
 
 %\@gtt@keydef{linespacing}
 %\def\y@upper{\@gtt@get{linespacing}*\value{gtt@currentline}+\value{gtt@lasttitleline}-\@gtt@get{linespacing}*\value{gtt@lasttitleline}-\@gtt@get{bar top shift}}
